@@ -1,0 +1,83 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./css/code.css">
+</head>
+<body>
+<h2 id = "title"> SURVEY FORM </h2>
+
+<p id = "description">
+        Give your review about Foodhub and rate us.
+</p>
+
+<div id = "form">
+
+    <div id = "label1">
+    First name:
+    <br>
+    <input type="text" name="firstname" value="">
+    <br>
+    Last name:
+    <br>
+    <input type="text" name="lastname" value="">
+    <br>
+    Email:
+    <br>
+    <input type ="text" name = "email" value="">
+    <br>
+    Age:
+    <br>
+    <input type ="number" name = "age" value="">
+</div>
+<div id = "other">
+    <div class ="labels">
+        <label for ="Role"> *Who a you to Foodhub? </label>
+    
+            <div class = "Tab">
+                <select id = "dropdown" name = "Role">
+                    <option value= ""></option>
+                    <option value="Customer">Customer</option>
+                    <option value="Employee">Employee</option>
+                </select>
+    
+
+        <div class ="labels">
+            <label for = "best">What do you like about Foodhub?</label>
+    
+            <div class = "Tab">
+                <select id = "dropdown"  name = "best">
+                    <option value= ""></option>
+                    <option value="Food">Food</option>
+                    <option value="Customer Care">Customer care</option>
+                </select> 
+
+        <div class = "labels">
+            <label for = "Improvement">Where would you want foodhub to improve?</label>
+        
+            <div class = "Tab">
+                <select id = "dropdrow"  name ="Improvement">
+                    <option value=""></option>
+                    <option value= "Food">Food</option>
+                    <option value= "Delivery">Delivery</option>
+                    <option value= "Customer Care">Customer Care</option>
+                    <option value= "Place">Place</option>
+                </select>
+        
+        <div class = "labels">
+            <label for = "Other Comments">For other Comments</label>
+    
+            <div class = "Tab">
+            <textarea id = "Comments" class="input-field" 
+            style= "height:75px;resize: horizontal;" name ="Other Comments" placeholder="Comments...."></textarea>
+        </div>
+
+        <div id = "submit">
+            <button id="submit" type="SUBMIT">SUBMIT</button>
+        </div>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    background-image: url("../Image/delicious-food.jpg")
+}
+
+#title {
+    font-weight: bolder;
+    text-align: center;
+    background-color: beige;
+}
+
+#description{
+    background-color: azure;
+    font-size: 30px;
+    text-align: center;
+}
+
+#form{
+    background-image: url("../Image/food.png");
+    /* background-color: antiquewhite; */
+    padding: 25px;
+    margin: 200px;
+    font-size: 20px;
+    text-align: center;
+
+    
+    
+
+}
+
+#label1{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+#others{
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+#submit{
+background-color:blue;
+border-radius: 4px;
+color:black;
+font-size: 1em;
+width: 96px;  
+}
+
