@@ -5,11 +5,13 @@ body {
 #title {
     font-weight: bolder;
     text-align: center;
-    background-color: beige;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
 }
 
 #description{
-    background-color: azure;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
     font-size: 30px;
     text-align: center;
 }
